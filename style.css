@@ -4,14 +4,14 @@ body{
 h2{
     background-color: gold;
     margin-top: 0%;
-   border-top-left-radius: 13%;
-   border-top-right-radius: 13%;
+   border-top-left-radius: 2rem;
+   border-top-right-radius: 2rem;
     margin-bottom: 0%;
 }
 nav{
     border: 2px solid black;
     font-size: 2.2rem;
-    border-radius: 10%;
+    border-radius: 2rem;
     width: 50%;
     margin: 5% auto;
     
@@ -32,11 +32,12 @@ ul {
     margin-bottom: 0%;
 }
 
-ul li :nth-child(5) {
-    border-bottom-left-radius: 13%;
-    border-bottom-right-radius: 13%;
+li:nth-child(5)
+{
+    border-bottom-left-radius: 2rem;
+    border-bottom-right-radius: 2rem;
 }
-a:hover
+li a:hover
 {
     background-color: black;
     color: white;
